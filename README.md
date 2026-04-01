@@ -6,7 +6,7 @@ A child theme is to override existing functionality without modifying changes to
 
 ### Template Hierarchy
 
-Template Hierarchy is how wordpress ensures the file is running. Wordpress follows a precedent order that follows structure. The file ensures that each file performs its function and that the theme can run effectively. 
+Template Hierarchy is a process wordpress uses to check template files in precedent order. This ensures that the most specific template files are run first. For example, child-style.css would run first, before style.css. This is because the child theme is checked before the parent's theme. 
 
 ### Real-World Reflection
 
