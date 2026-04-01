@@ -10,4 +10,4 @@ Template Hierarchy is a process wordpress uses to check template files in preced
 
 ### Real-World Reflection
 
-I changed the single post layout to add a publish time so readers can be aware of when the article is. This ensures credibility and awareness in modern topics. 
+I changed the post layout to include more details in the article for the single pages. I also added the title bolded for presentation effect. 
