@@ -1,1 +1,30 @@
+/* Theme Name: Morin-Metro-Theme
+ * Author : Omorinsola Olumoh
+ * Description: A child theme for my wordpress report
+ * Version: 1.0
+*/
+
+body{
+  color: black;
+}
+
+/* Navigation menu*/
+
+nav{
+    color: blue;
+    background-color: white;
+}
+
+/* Navigation links */
+nav a {
+    color: #ffffff;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Navigation hover effect */
+nav a:hover {
+    color: #ffcc00;
+}
 
