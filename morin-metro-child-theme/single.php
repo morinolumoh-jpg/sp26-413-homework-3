@@ -19,12 +19,12 @@ Description: A custom single page WordPress theme.
 
             <h1><?php the_title(); ?></h1>
 
-            <p class="post-meta">
+            <p class="post-meta" style="text-align: center, font-size: 14px, color: #purple:">
                 By <?php the_author(); ?> | <?php echo get_the_date(); ?>
             </p>
 
             <?php if (has_post_thumbnail()) : ?>
-                <div class="post-image">
+                <div class="post-image" style="padding-bottom:10px, width: 100%, border-radius: 10px;">
                     <?php the_post_thumbnail('large'); ?>
                 </div>
             <?php endif; ?>
